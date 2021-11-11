@@ -1,0 +1,4 @@
+- type: checkDir
+  Dir: "/myscriptss"
+  Host: "localhost"
+  Description: "Validating the Directory /myscriptss"

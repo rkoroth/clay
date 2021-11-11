@@ -1,0 +1,4 @@
+- type: checkDir
+  Dir: "/ranjith"
+  Host: "localhost"
+  Description: "Validating the Directory /ranjith"

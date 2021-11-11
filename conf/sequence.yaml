@@ -1,0 +1,7 @@
+Task: 
+  - desc: 'Check a Dir'
+    conf: checkDir.yaml
+  - desc: 'Check another new Dir'
+    conf: newcheckDir.yaml
+  - desc: "checking another new directory"
+    conf: newcheckDirnew.yaml
