@@ -5,3 +5,5 @@ Task:
     conf: newcheckDir.yaml
   - desc: "checking another new directory"
     conf: newcheckDirnew.yaml
+  - desc: "Listing Directories and files"
+    conf: validate_output.yaml

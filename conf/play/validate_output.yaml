@@ -1,0 +1,5 @@
+- type: command
+  Cmd: "ls -ltr /"
+  Host: "localhost"
+  Description: "listing Directories"
+

@@ -3,8 +3,9 @@
 
 import yaml
 import sys
-sys.path.append("/myscripts/Clay/lib")
+sys.path.append("/github/clay/lib")
 import checkDir
+import command
 
 
 #read sequence 
@@ -22,11 +23,10 @@ with open("../conf/sequence.yaml", "r") as f:
     print ('"""""""LIST OF TASKS""""""""')
     for Task in myval['Task']:
         print (Task['desc'])
-        print (myval)
 
 print ('"""""""""""Running Tasks"""""""""""""""')
 for task in myval['Task']:
-   play_file = f"/myscripts/Clay/conf/play/{task['conf']}"
+   play_file = f"/github/clay/conf/play/{task['conf']}"
    with open(play_file , "r") as ss:
        tas = yaml.safe_load(ss) 
        mod_type = (tas[0]['type'])
@@ -34,4 +34,7 @@ for task in myval['Task']:
           output = checkDir.CheckDir(play_file)
           print (output['message'])
           print (output['status'])
-
+       elif mod_type == "command":
+          output = command.Command(play_file)
+          print (output['message'])
+          print (output['status'])
