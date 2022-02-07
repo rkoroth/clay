@@ -14,6 +14,5 @@ def Command(yaml_config):
     else:
         output['status'] = False
 
-
     return output
 
