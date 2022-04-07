@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 
 import yaml
@@ -13,7 +13,7 @@ import command
 #check the type from the first task yaml
 #if the type is CheckDir use an if statement to process it 
 #then use CheckDir module and execute the process.
-# process will return a diction with status and messages
+# process will return a dictionary with status and messages
 
 #*** This is the main wrapper of the doll ***
 
