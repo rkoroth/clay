@@ -1,12 +1,12 @@
 # CLAY
 
-Clay stands between Orchastration software and a stand-alone script.
+Clay stands between Orchastration software and stand-alone script.  
 It helps to write stand-alone automation script by means ready made modules.
 
 ## Internal Structure
 
-Basically clay.py is the main wrapper and often no need to modify.
-and clay.py is not meant to be modified by user.
+Basically clay.py is the main wrapper and often no need to modify.  
+clay.py is not meant to be modified by user.
 
 user will modify conf/clay/xyz.yaml 
 and the sequence.yaml for the sequence.
