@@ -1,0 +1,4 @@
+- type: checknodename
+  Node: "localhost"
+  Host: "localhost"
+  Description: "checking hostname"
