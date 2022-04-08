@@ -1,7 +1,7 @@
 # CLAY
 
 Clay stands between Orchastration software and stand-alone script.  
-It helps to write stand-alone automation script by means ready made modules.
+It helps to write stand-alone automation script by means of ready made modules.
 
 ## Internal Structure
 
