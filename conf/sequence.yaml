@@ -7,3 +7,5 @@ Task:
     conf: newcheckDirnew.yaml
   - desc: "Listing Directories and files"
     conf: validate_output.yaml
+  - desc: "Identifying node name"
+    conf: checknodename.yaml
