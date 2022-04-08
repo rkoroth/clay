@@ -6,7 +6,7 @@ It helps to write stand-alone automation script by means of ready made modules.
 ## Internal Structure
 
 Basically clay.py is the main wrapper and often no need to modify.  
-clay.py is not meant to be modified by user.
+clay.py is not meant to be modified by user however it needs to be modified whenever there is a module change.
 
 user will modify conf/clay/xyz.yaml 
 and the sequence.yaml for the sequence.
