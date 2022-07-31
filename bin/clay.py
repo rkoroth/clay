@@ -7,6 +7,7 @@ sys.path.append("/github/clay/lib")
 import checkDir
 import command
 
+#*** This is the main wrapper of the clay ***
 
 #read sequence 
 #identify the first task 
@@ -15,7 +16,6 @@ import command
 #then use CheckDir module and execute the process.
 # process will return a dictionary with status and messages
 
-#*** This is the main wrapper of the doll ***
 
 
 with open("../conf/sequence.yaml", "r") as f:
